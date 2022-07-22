@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//program to count a digit in a number
+//Program to count a digit in a number
 public class CountDigit {
 	public static void main(String[] args) {
 		int count=0;
