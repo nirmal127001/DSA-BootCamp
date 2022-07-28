@@ -19,8 +19,8 @@ public class Calci {
         if(ch=='*'){
             System.out.println(num1*num2);
         }
-        if(ch=='+'){
-            System.out.println(num1/num2);
+        if(ch=='/'){
+            System.out.println((float)num1/num2);
         }
         else{
             System.out.println("Invalid Input");
