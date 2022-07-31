@@ -6,11 +6,15 @@ public class Ifevnen {
         Scanner in = new Scanner(System.in);
         System.out.print("Number: ");
         int num=in.nextInt();
-        if(num%2==0) {
-            System.out.println(num+" is even");
-        }
-        else{
-            System.out.println(num+" is odd");
-        }
+        // if(num%2==0) {
+        //     System.out.println(num+" is even");
+        // }
+        // else{
+        //     System.out.println(num+" is odd");
+        // }
+        System.out.println(isEven(num));
+    }
+    static boolean isEven(int a){
+        return a%2==0;
     }
 }
