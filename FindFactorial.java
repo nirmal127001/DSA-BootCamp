@@ -5,8 +5,8 @@ public class FindFactorial {
         Scanner in = new Scanner(System.in);
         System.out.print("Number: ");
         int num = in.nextInt();
-        System.out.println(findFactoral(num));
-        // System.out.println(findFactoralByRec(num));
+        // System.out.println(findFactoral(num));
+        System.out.println(findFactoralByRec(num));
     }
     static int findFactoralByRec(int a) {
         int fact=1;

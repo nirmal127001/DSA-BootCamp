@@ -17,7 +17,10 @@ public class PrimeBetween {
     }
     static boolean isPrime(int a){
         boolean result =true;
-        for(int i = 2; i <a; i++){
+        if(a== 0||a==1 ){
+            result = false;
+        }
+        for(int i = 2; i <a/2; i++){
             if(a%i==0){
                 result= false;
             }

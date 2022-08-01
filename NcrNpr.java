@@ -9,6 +9,21 @@ public class NcrNpr {
         int n = in.nextInt();
         System.out.print("r: ");
         int r = in.nextInt();
-        //will solve using function
+        if(n>=r &&r>=0){
+            int npr=fact(n)/fact(n-r);
+            int ncr=fact(n)/(fact(n-r)*fact(r));
+            System.out.println("npr: "+npr);
+            System.out.print("ncr: "+ncr);
+        }
+        else{
+            System.out.println("Invalid Input");
+        }
+    }
+    static int fact(int a) {
+        int fact=1;
+        if(a>=1){
+            fact = fact*a*fact(a-1);
+        }
+        return fact;
     }
 }
