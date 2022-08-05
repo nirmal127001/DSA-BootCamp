@@ -19,6 +19,7 @@ public class NcrNpr {
             System.out.println("Invalid Input");
         }
     }
+    
     static int fact(int a) {
         int fact=1;
         if(a>=1){
