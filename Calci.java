@@ -10,6 +10,7 @@ public class Calci {
         int num2=in.nextInt();
         System.out.print("Operator: ");
         char ch=in.next().trim().charAt(0);
+        
         if(ch=='+'){
             System.out.println(num1+num2);
         }
