@@ -9,7 +9,7 @@ public class ImageFlipping {
        for(int[] i:nimage){
         System.out.println(Arrays.toString(i));
        }
-    //    System.out.println(Arrays.toString(flipAndInvertImage(image)));
+    //   System.out.println(Arrays.toString(flipAndInvertImage(image)));
     }
 
     static int[][] flipAndInvertImage(int[][] image) {
